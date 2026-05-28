@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>MedLearn CMS - Platform Pembagian Ilmu Medis & Edukasi</title>
+<meta name="description" content="MedLearn CMS adalah platform edukasi medis untuk berbagi ilmu, riset, dan pembelajaran kesehatan secara interaktif dan terstruktur."/>
+<meta name="keywords" content="edukasi medis, pembagian ilmu, kesehatan, riset medis, MedLearn CMS, tutorial kesehatan"/>
+<meta name="author" content="MedLearn Team"/>
+<link rel="canonical" href="https://pembagian-ilmu.web.app/"/>
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://pembagian-ilmu.web.app/"/>
+<meta property="og:title" content="MedLearn CMS - Platform Pembagian Ilmu Medis"/>
+<meta property="og:description" content="Bagikan dan pelajari ilmu medis terbaru melalui platform MedLearn CMS yang interaktif."/>
+<meta property="og:image" content="https://pembagian-ilmu.web.app/assets/images/og-image.jpg"/>
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image"/>
+<meta property="twitter:url" content="https://pembagian-ilmu.web.app/"/>
+<meta property="twitter:title" content="MedLearn CMS - Platform Pembagian Ilmu Medis"/>
+<meta property="twitter:description" content="Bagikan dan pelajari ilmu medis terbaru melalui platform MedLearn CMS yang interaktif."/>
+<meta property="twitter:image" content="https://pembagian-ilmu.web.app/assets/images/og-image.jpg"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800;900&family=Lato:wght@400;700&display=swap" rel="stylesheet"/>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<div id="root"></div>
+
+<script type="module">
+  import { startApp } from './assets/js/app.js';
+  import { firebaseConfig } from './assets/js/firebase-config.js';
+
+  startApp(firebaseConfig);
+</script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm/
+
+# Firebase
+.firebase/
+firebase-debug.log*
+firestore-debug.log*
+ui-debug.log*
+
+# Gemini CLI / IDE
+.gemini/
+.codeoss/
+.vscode/
+
+# System / OS
+.DS_Store
+.cache/
+.config/
+.docker/
+.local/
+.sudo_as_admin_successful
+README-cloudshell.txt
+.bash_history
+.bash_logout
+.bashrc
+.profile
+.gitconfig
+.ssh/
+
+# Environment
+.env
+.env.local
+.env.*.local
+firebase-config.js
+**/firebase-config.js
