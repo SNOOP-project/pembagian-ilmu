@@ -25,8 +25,8 @@ let state = {
 let db, auth;
 
 // --- INITIALIZATION ---
-export async function startApp(firebaseConfig) {
-  const firebase = initFirebase(firebaseConfig);
+export async function startApp() {
+  const firebase = await initFirebase();
   db = firebase.db;
   auth = firebase.auth;
 
